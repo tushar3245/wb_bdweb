@@ -1,0 +1,118 @@
+/* ------------------- */
+/* Start Repeated Style */
+/* ------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1020px !important;
+    margin: auto !important;
+    background-image: url("../img/bg/bg_main.gif");
+    background-repeat: repeat;
+    background-position: top center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 !important;
+}
+
+
+
+li {
+    list-style-type: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bg_1 {
+    background-color: #fff !important;
+
+}
+
+.bg_2 {
+    background-color: #9E5BBA !important;
+    color: #fff !important;
+}
+
+.bg_3 {
+    background-color: #8cc643 !important;
+    color: #fff !important;
+}
+
+.bg_4 {
+    background-color: #ebebeb;
+    color: #333;
+}
+
+.fc_1 {
+    color: #9E5BBA;
+}
+
+.fs_1 {
+    font-size: 12px !important;
+}
+
+.fs_2 {
+    font-size: 13px !important;
+}
+
+.fs_3 {
+    font-size: 14px !important;
+}
+
+/* -------------------- */
+/* Start Header Styling */
+/* -------------------- */
+
+nav .nav-item {
+    letter-spacing: -.8px;
+    line-height: 18px;
+}
+
+
+
+/* ------------------------- */
+/* Start Service Tab Styling */
+/* ------------------------- */
+section.service_tab {
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+.top_footer {
+    background-image: url("../img/bg/footer_top_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .small_none {
+        display: block !important;
+    }
+  } 
+
+@media screen and (max-width: 576px) {
+    body {
+        width: 100% !important;
+    }
+    .small_none {
+        display: none !important;
+    }
+}
